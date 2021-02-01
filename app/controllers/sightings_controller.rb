@@ -5,5 +5,5 @@ class SightingsController < ApplicationController
           :bird => {:only => [:name, :species]},
           :location => {:only => [:latitude, :longitude]}
         }, :except => [:updated_at])
-    end
+  end
 end
